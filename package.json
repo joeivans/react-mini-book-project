@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "React tutorial and projects course",
   "keywords": [],
-  "main": "src/index.js",
+  "main": "src/index.jsx",
   "dependencies": {
     "prettier": "2.5.1",
     "react": "17.0.2",
