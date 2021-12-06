@@ -1,2 +1,3 @@
 # react-mini-book-project
-Created with CodeSandbox
+
+This project takes inspiration from well-known designs from around the internet.
