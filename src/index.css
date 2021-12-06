@@ -34,3 +34,16 @@ body {
 .book h1 {
   margin-top: 0.5rem;
 }
+
+.book > .author {
+  margin-top: 0.25rem;
+  margin-left: 0.3rem;
+}
+
+.book button {
+  margin-top: 1rem;
+  background-color: orange;
+  color: #444;
+  border-radius: 0.25rem;
+  border-width: 0.12rem;
+}
