@@ -6,8 +6,6 @@ function BookList() {
       <Book />
       <Book />
       <Book />
-      <Book />
-      <Book />
     </section>
   );
 }
@@ -15,11 +13,15 @@ function BookList() {
 const Book = () => {
   return (
     <article>
-      <Image src="https://images-na.ssl-images-amazon.com/images/I/81QOQobJiGL._AC_UL200_SR200,200_.jpghttps://images-na.ssl-images-amazon.com/images/I/81QOQobJiGL._AC_UL200_SR200,200_.jpg" />
+      <Title title="The Big Book of Silly Jokes for Kids" />
+      <Author author="Carole P. Roman" />
+      <Image src="https://images-na.ssl-images-amazon.com/images/I/81QOQobJiGL._AC_UL200_SR200,200_.jpg" />
     </article>
   );
 };
 
-const Image = (src) => <img src="{src}" alt="" />;
+const Title = ({ title }) => <h1>{title}</h1>;
+const Author = ({ author }) => <p>{author}</p>;
+const Image = ({ src }) => <img src={src} alt="" />;
 
 ReactDOM.render(<BookList />, document.getElementById("root"));
