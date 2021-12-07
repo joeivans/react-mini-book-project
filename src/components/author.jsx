@@ -1,3 +1,5 @@
-const Author = ({ author }) => <p className="author">{author}</p>;
+const Author = function ({ author }) {
+  return <p className="author">{author}</p>;
+};
 
 export default Author;

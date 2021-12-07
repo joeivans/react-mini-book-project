@@ -18,5 +18,9 @@
         "react"
     ],
     "rules": {
+      "react/prop-types": 0,
+      "func-names": 0,
+      "react/react-in-jsx-scope": 0,
+      "no-return-assign": 0
     }
 }

@@ -3,7 +3,9 @@ import Title from './title';
 import Author from './author';
 import AddToCart from './addToCart';
 
-const Book = ({ title, author, imgSrc, imgAlt }) => {
+const Book = function ({
+  title, author, imgSrc, imgAlt,
+}) {
   return (
     <article className="book">
       <Image src={imgSrc} alt={imgAlt} />
